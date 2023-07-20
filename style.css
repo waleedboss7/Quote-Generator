@@ -1,26 +1,55 @@
 body {
-    background: #06bbc1;
+    background-image: linear-gradient(purple,rgb(64, 64, 13),rgb(120, 97, 194));
 }
 
 .container {
-   text-align: center;
-    width: 95%;
-    height: 100vh;
     display: flex;
+    text-align: center;
+    width: 95%;
+    height: 95vh;
 }
 
+button {
+        background-color: #4c7caf; 
+        border: none; /* Remove border */
+        color: white; /* White text */
+        padding: 12px 24px; /* Add some padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make it a block element */
+        font-size: 12px; /* Set font size */
+        cursor: pointer; /* Add cursor */
+        border-radius: 4px; /* Add rounded corners */
+      }
+ button:hover {
+    background-color: #3a6f9b6a;
+    font-size: 13px;
+ }
+
+ button:active {
+    transform: translateY(3px)
+ }
+
 .quotes {
-    width: 900px;
+    width: 300px;
     height: 450px;
-    margin: auto;
+    margin:  auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 0 50px;
-    color: gray;
-    background-color: #f4edea;
-    border: 10px solid #f4d1ae;
+    color: silver;
+    background-color: #4a3f72;
+    border-radius: 100px;
+
+  
+}
+
+.quotes p, .quotes h3 {
+    font-size: 1.5rem;
+    color: darkgoldenrod  ;
+    text-shadow: 10px 5px 20px gray;
+    
 }
 
 .quotes p, .quotes h3 {
